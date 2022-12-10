@@ -28,3 +28,5 @@ if __name__ == "__main__":
     if login_info:
         user_id, user_email = login_info
         st.write(f"Welcome {user_email}")
+
+# streamlit run app.py --server.port 8080
